@@ -1,2 +1,2 @@
 # auto-nmap
-automating nmap scanner with python
+automating nmap network scanner with python
