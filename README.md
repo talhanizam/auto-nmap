@@ -1,5 +1,5 @@
 # auto-nmap
-automating nmap network scanner with python
+automating nmap network scanner with python and nmap3
 
 
 $ install all the required modules by
