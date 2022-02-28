@@ -43,10 +43,10 @@ target = input(Fore.GREEN + "[+] Enter the target you want to scan : ")
 ch = int(input(Fore.YELLOW + """
     CHOOSE FROM THE FOLLOWING SCAN OPTIONS
     [1] COMMON PORT SCAN
-    [2] TCP SCAN ( -Ss )
+    [2] TCP SCAN ( -sT )   
     [3] UDP SCAN ( -Su )
-    [4] OS DETECTION ( -O )
-    [5] VERSION DETECTION ( -Sv ) : """))
+    [4] OS DETECTION ( -O ) {requires root privileges}
+    [5] VERSION DETECTION ( -Sv ) {requires root privileges} : """))
 
 if ch==1:
     top_port_scan(target)
